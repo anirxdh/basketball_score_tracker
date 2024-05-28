@@ -1,0 +1,25 @@
+.hero {
+    display: flex;
+    justify-content: space-around;
+    /* text-align: center; */
+    color: white;
+}
+body{
+    margin: 0;
+    text-align: center;
+    background-color: #010048;
+}
+@font-face {
+    font-family: scorefont;
+    src: url("/Users/anirudhvasudevan/Desktop/Web dev/basketball score tracker/CursedTimerUlil-Aznm.ttf");
+}
+.clock{
+    font-family: scorefont;
+    font-size:80px;
+    color: red;
+    background-color: black;
+    padding: 10px;
+}
+button{
+    font-family: scorefont;
+}
